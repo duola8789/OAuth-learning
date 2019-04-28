@@ -1,0 +1,27 @@
+{
+  "name": "oauth-learning",
+  "version": "1.0.0",
+  "description": "按照[阮一峰的例子](http://www.ruanyifeng.com/blog/2019/04/github-oauth.html)，做一个Demo，通过OAuth，以Github进行第三方登录，获取API数据。",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duola8789/OAuth-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duola8789/OAuth-learning/issues"
+  },
+  "homepage": "https://github.com/duola8789/OAuth-learning#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "nodemon": "^1.18.11"
+  }
+}
